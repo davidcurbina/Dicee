@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AE1646531FD0CBEB00D3CDE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1646521FD0CBEB00D3CDE6 /* AppDelegate.swift */; };
-		AE1646551FD0CBEB00D3CDE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1646541FD0CBEB00D3CDE6 /* ViewController.swift */; };
+		AE1646551FD0CBEB00D3CDE6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1646541FD0CBEB00D3CDE6 /* MainViewController.swift */; };
 		AE1646581FD0CBEB00D3CDE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1646561FD0CBEB00D3CDE6 /* Main.storyboard */; };
 		AE16465A1FD0CBEB00D3CDE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1646591FD0CBEB00D3CDE6 /* Assets.xcassets */; };
 		AE16465D1FD0CBEB00D3CDE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE16465B1FD0CBEB00D3CDE6 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		AE16464F1FD0CBEB00D3CDE6 /* Dicee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dicee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1646521FD0CBEB00D3CDE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE1646541FD0CBEB00D3CDE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE1646541FD0CBEB00D3CDE6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		AE1646571FD0CBEB00D3CDE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE1646591FD0CBEB00D3CDE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE16465C1FD0CBEB00D3CDE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				AE1646521FD0CBEB00D3CDE6 /* AppDelegate.swift */,
-				AE1646541FD0CBEB00D3CDE6 /* ViewController.swift */,
+				AE1646541FD0CBEB00D3CDE6 /* MainViewController.swift */,
 				AE1646561FD0CBEB00D3CDE6 /* Main.storyboard */,
 				AE1646591FD0CBEB00D3CDE6 /* Assets.xcassets */,
 				AE16465B1FD0CBEB00D3CDE6 /* LaunchScreen.storyboard */,
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE1646551FD0CBEB00D3CDE6 /* ViewController.swift in Sources */,
+				AE1646551FD0CBEB00D3CDE6 /* MainViewController.swift in Sources */,
 				AE1646531FD0CBEB00D3CDE6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +275,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WT5322ZMWQ;
 				INFOPLIST_FILE = Dicee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.davidcurbina.Dicee;
@@ -289,6 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WT5322ZMWQ;
 				INFOPLIST_FILE = Dicee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.davidcurbina.Dicee;
